@@ -1,12 +1,12 @@
 # prominent-colors-detector
 A engine which detects prominent colors from the image.
 
-##Install Python Package
+## Install Python Package
 ```
 pip install image-pcd
 ```
 
-##Usage
+## Usage
 
 ```python
 from pcd import ImageProminentColor
