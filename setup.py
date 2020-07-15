@@ -13,7 +13,7 @@ with open(os.path.join(HERE, "README.md")) as fid:
 # This call to setup() does all the work
 setup(
     name="image-pcd",
-    version="1.0.0",
+    version="1.1.0",
     description="A engine which detects prominent colors from the image.",
     long_description=README,
     long_description_content_type="text/markdown",
