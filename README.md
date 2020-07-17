@@ -1,4 +1,5 @@
 # prominent-colors-detector
+![PyPI - Downloads](https://img.shields.io/pypi/dm/image-pcd) <br/>
 A engine which detects prominent colors from the image.
 
 ## Install Python Package
