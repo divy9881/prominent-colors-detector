@@ -8,7 +8,7 @@ Original file is located at
 """
 
 # Define hyper-parameters
-root = "./drive/My Drive/Colab Notebooks/"
+root = "./"
 
 # Core-engine class
 import os
@@ -66,10 +66,6 @@ class ImageProminentColor:
     ax.set_ylabel('Green (G)')
     ax.set_zlabel('Blue (B)')
 
-    ax.set_xlabel('Red (R)')
-    ax.set_ylabel('Green (G)')
-    ax.set_zlabel('Blue (B)')
-
     plt.savefig(filepath)
     plt.show()
 
@@ -93,8 +89,6 @@ class ImageProminentColor:
 
 if __name__ == "__main__":
   from tensorflow.keras.utils import get_file
-
-  file = get_file("pngtree-colorful-bright-smoke-texture-background-image_312909.jpg", "https://png.pngtree.com/thumb_back/fh260/background/20190903/pngtree-colorful-bright-smoke-texture-background-image_312909.jpg")
 
   image_color = ImageProminentColor(root+"nodejs.png")
   print(image_color.get_prominent_colors(KMeans, 3))
